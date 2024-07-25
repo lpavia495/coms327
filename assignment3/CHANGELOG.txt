@@ -1,0 +1,44 @@
+1/26/24 
+    Started terrain.c
+    Print default map with boulders at the border and clearings inbetween
+	Made paths but only generated in straight lines
+	
+1/27/24
+	Added terrain generation
+	
+1/28/24
+	Added random features generator (trees and boulders)
+	Added Pokecenter and Pokemart generator
+	
+1/30/24
+	Fixed paths so that they generated bendy
+
+2/3/24
+    Made the map generate a new map everytime n, s, w, or e is pressed
+	Made the program quit if 'q' is pressed
+	
+2/4/24
+	Made it so previous maps can regenerate if they are revisited
+	Correctly implemented fly by pressing 'f'
+	
+2/5/24
+	Made it so that paths don't continue past the world edge meaning a path can't 
+	continiue north past the northern most maps for example.
+	
+2/6/24
+	Got paths to connect to each other
+	
+2/7/24
+	Fixed bug in paths not connecting properly some of the time
+	
+2/10/24
+	Made a playable character
+	
+2/11/24
+	Implemented weights for both hiker and rival
+	
+2/13/24
+	Mostly implemented dijkstra
+	
+2/14/24
+	Fixed bugs with dikstra not outputting correctly

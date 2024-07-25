@@ -1,0 +1,10 @@
+2/3/24
+    Made the map generate a new map everytime n, s, w, or e is pressed
+	Made the program quit if 'q' is pressed
+2/4/24
+	Made it so previous maps can regenerate if they are revisited
+	Correctly implemented fly by pressing 'f'
+2/5/24
+	Made it so that paths don't continue past the world edge meaning a path can't continiue north past the northern most maps for example.
+2/6/24
+	Got paths to connect to each other

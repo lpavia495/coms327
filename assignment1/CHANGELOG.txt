@@ -1,0 +1,14 @@
+1/26/24 
+    Started terrain.c
+    Print default map with boulders at the border and clearings inbetween
+	Made paths but only generated in straight lines
+	
+1/27/24
+	Added terrain generation
+	
+1/28/24
+	Added random features generator (trees and boulders)
+	Added Pokecenter and Pokemart generator
+	
+1/30/24
+	Fixed paths so that they generated bendy
