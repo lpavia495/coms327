@@ -1,0 +1,99 @@
+1/26/24 
+    Started terrain.c
+    Print default map with boulders at the border and clearings inbetween
+	Made paths but only generated in straight lines
+	
+1/27/24
+	Added terrain generation
+	
+1/28/24
+	Added random features generator (trees and boulders)
+	Added Pokecenter and Pokemart generator
+	
+1/30/24
+	Fixed paths so that they generated bendy
+
+2/3/24
+    Made the map generate a new map everytime n, s, w, or e is pressed
+	Made the program quit if 'q' is pressed
+	
+2/4/24
+	Made it so previous maps can regenerate if they are revisited
+	Correctly implemented fly by pressing 'f'
+	
+2/5/24
+	Made it so that paths don't continue past the world edge meaning a path can't 
+	continiue north past the northern most maps for example.
+	
+2/6/24
+	Got paths to connect to each other
+	
+2/7/24
+	Fixed bug in paths not connecting properly some of the time
+	
+2/10/24
+	Made a playable character
+	
+2/11/24
+	Implemented weights for both hiker and rival
+	
+2/13/24
+	Mostly implemented dijkstra
+	
+2/14/24
+	Fixed bugs with dikstra not outputting correctly
+	
+2/21/24 
+	Started by adding Hikers and Rivals with dijkstra already implemented from last assignment
+
+2/22/24
+	Added Sentry
+	
+2/23/24
+	Added Pacer
+
+2/24/23
+	Added Wanderers and Explorers
+
+2/25
+	Fixed Bugs with Explorers
+
+2/26
+	Made it so the program exited with ctrl-c
+
+2/27
+	Fixed Wanderer bugs
+2/28 
+	Fully implemented numtrainers switch 
+3/11
+	Added curses and changed the color scheme of the map
+	Had to update my Makefile to run the program with curses
+3/12	
+	Added movement commands for the playable character
+3/13
+	Added the ability for PC to enter a pokemart/pokecenter
+	Added the ability for PC to leave a pokemart/pokecenter
+3/14
+	Added the ability for PC to enter battles when colliding with an NPC
+3/15
+	NPC's will now be marked as defeated and future battles won't be triggered again from that NPC
+3/16
+	No player or NPC can move to a "gate"
+3/17
+	Player can now see the distances to all the NPCs when 't' is pressed
+	Player can scroll with arrow keys the distances to other NPCs
+3/18
+	Fixed bugs that would occur with PC colliding with NPCs
+3/22
+	Made it so that the user can now go on the Path no a bordering cell which generates a new map
+3/23
+	Got all the other trainers to spawn properly in each map
+3/24 
+	Fixed my code so that trainers don't move when they are in a different map than the playable character
+3/25
+	Fixed a bug where the previous cell wasn't getting replaced properly when the playable character moved map to map
+3/26
+	Ported all my code to C++ and fixed my makeFile accordingly
+3/27
+	Fixed a mild bug that occured when a playable character moved diagonally into a new map where it would not track the 
+	player's movement properly.	
